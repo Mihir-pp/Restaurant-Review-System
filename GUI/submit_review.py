@@ -2,7 +2,7 @@ from gooey import Gooey, GooeyParser
 import pyodbc
 #connect to microsoft sql server
 conn = pyodbc.connect('Driver={SQL Server};'
-                        'Server=LAPTOP-7O5MBOHG\SQLEXPRESS;'
+                        'Server= Server_name'
                         'Database=restro;'
                         'Trusted_Connection=yes;')
 cursor = conn.cursor()
